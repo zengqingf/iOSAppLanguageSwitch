@@ -1,0 +1,8 @@
+/* 
+  InfoPlist.strings
+  iOSAppLanguageSwitchDemo
+
+  Created by zengqingfu on 2017/6/13.
+  Copyright © 2017年 zengqingfu. All rights reserved.
+*/
+"CFBundleDisplayName" = "语言切换";

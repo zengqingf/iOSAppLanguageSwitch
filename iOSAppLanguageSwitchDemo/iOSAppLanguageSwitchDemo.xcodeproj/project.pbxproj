@@ -17,6 +17,9 @@
 		4B32F1D11EEFE8A40066445B /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B32F1D31EEFE8A40066445B /* FirstViewController.xib */; };
 		4B32F1D81EEFE9850066445B /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B32F1DA1EEFE9850066445B /* SecondViewController.xib */; };
 		4B32F1E71EEFF38C0066445B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B32F1E91EEFF38C0066445B /* Localizable.strings */; };
+		4B32F1FA1EF000220066445B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B32F1FC1EF000220066445B /* InfoPlist.strings */; };
+		4B32F2021EF002D90066445B /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B32F2001EF002D90066445B /* ThirdViewController.m */; };
+		4B32F2041EF003E40066445B /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B32F2061EF003E40066445B /* ThirdViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +46,14 @@
 		4B32F1EB1EEFF38D0066445B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		4B32F1F51EEFF4340066445B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/SecondViewController.strings; sourceTree = "<group>"; };
 		4B32F1F71EEFF4360066445B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/SecondViewController.strings"; sourceTree = "<group>"; };
+		4B32F1FB1EF000220066445B /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4B32F1FD1EF000240066445B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4B32F1FE1EF000250066445B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		4B32F1FF1EF002D90066445B /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		4B32F2001EF002D90066445B /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		4B32F2051EF003E40066445B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ThirdViewController.xib; sourceTree = "<group>"; };
+		4B32F2081EF003E50066445B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ThirdViewController.strings; sourceTree = "<group>"; };
+		4B32F20A1EF003E60066445B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/ThirdViewController.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +94,9 @@
 				4B32F1CC1EEFE7D90066445B /* SecondViewController.h */,
 				4B32F1CD1EEFE7D90066445B /* SecondViewController.m */,
 				4B32F1DA1EEFE9850066445B /* SecondViewController.xib */,
+				4B32F1FF1EF002D90066445B /* ThirdViewController.h */,
+				4B32F2001EF002D90066445B /* ThirdViewController.m */,
+				4B32F2061EF003E40066445B /* ThirdViewController.xib */,
 				4B32F1C21EEFDEBE0066445B /* Class */,
 				4B32F1B71EEFDE840066445B /* Assets.xcassets */,
 				4B32F1B91EEFDE840066445B /* LaunchScreen.storyboard */,
@@ -97,6 +111,7 @@
 			children = (
 				4B32F1AC1EEFDE840066445B /* main.m */,
 				4B32F1E91EEFF38C0066445B /* Localizable.strings */,
+				4B32F1FC1EF000220066445B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -141,6 +156,7 @@
 				TargetAttributes = {
 					4B32F1A71EEFDE840066445B = {
 						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = YP3GK894M5;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -169,7 +185,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B32F2041EF003E40066445B /* ThirdViewController.xib in Resources */,
 				4B32F1E71EEFF38C0066445B /* Localizable.strings in Resources */,
+				4B32F1FA1EF000220066445B /* InfoPlist.strings in Resources */,
 				4B32F1D81EEFE9850066445B /* SecondViewController.xib in Resources */,
 				4B32F1BB1EEFDE840066445B /* LaunchScreen.storyboard in Resources */,
 				4B32F1D11EEFE8A40066445B /* FirstViewController.xib in Resources */,
@@ -186,6 +204,7 @@
 			files = (
 				4B32F1CF1EEFE7DA0066445B /* SecondViewController.m in Sources */,
 				4B32F1C51EEFDEF40066445B /* NSBundle+AppLanguageSwitch.m in Sources */,
+				4B32F2021EF002D90066445B /* ThirdViewController.m in Sources */,
 				4B32F1B01EEFDE840066445B /* AppDelegate.m in Sources */,
 				4B32F1AD1EEFDE840066445B /* main.m in Sources */,
 				4B32F1CA1EEFE7C10066445B /* FirstViewController.m in Sources */,
@@ -232,6 +251,26 @@
 				4B32F1EB1EEFF38D0066445B /* zh-Hans */,
 			);
 			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		4B32F1FC1EF000220066445B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B32F1FB1EF000220066445B /* Base */,
+				4B32F1FD1EF000240066445B /* en */,
+				4B32F1FE1EF000250066445B /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4B32F2061EF003E40066445B /* ThirdViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B32F2051EF003E40066445B /* Base */,
+				4B32F2081EF003E50066445B /* en */,
+				4B32F20A1EF003E60066445B /* zh-Hans */,
+			);
+			name = ThirdViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -335,6 +374,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YP3GK894M5;
 				INFOPLIST_FILE = iOSAppLanguageSwitchDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -347,6 +387,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YP3GK894M5;
 				INFOPLIST_FILE = iOSAppLanguageSwitchDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
