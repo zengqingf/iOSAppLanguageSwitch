@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SecondViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sRN-Uf-gCL">
+                    <rect key="frame" x="65" y="123" width="77" height="30"/>
+                    <state key="normal" title="设置成中文"/>
+                    <connections>
+                        <action selector="setupChineseAction:" destination="-1" eventType="touchUpInside" id="mBY-0D-cH6"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FKp-xO-AWr">
+                    <rect key="frame" x="65" y="179" width="77" height="30"/>
+                    <state key="normal" title="设置成英文"/>
+                    <connections>
+                        <action selector="setupEnglishAction:" destination="-1" eventType="touchUpInside" id="Dnz-Rf-lBd"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wzO-U2-Cbk">
+                    <rect key="frame" x="65" y="235" width="138" height="30"/>
+                    <state key="normal" title="获取当前自定义语言"/>
+                    <connections>
+                        <action selector="currentLanguage:" destination="-1" eventType="touchUpInside" id="np0-hM-mXL"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hqn-O1-exW">
+                    <rect key="frame" x="65" y="291" width="108" height="30"/>
+                    <state key="normal" title="恢复成系统语言"/>
+                    <connections>
+                        <action selector="restoreLanguageAction:" destination="-1" eventType="touchUpInside" id="k1k-W5-sKy"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CK4-kE-Lyr">
+                    <rect key="frame" x="16" y="14" width="31" height="30"/>
+                    <state key="normal" title="关闭"/>
+                    <connections>
+                        <action selector="closeAction:" destination="-1" eventType="touchUpInside" id="mjd-C7-jYk"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kXe-Ad-9Ls">
+                    <rect key="frame" x="65" y="347" width="77" height="30"/>
+                    <state key="normal" title="字符串测试"/>
+                    <connections>
+                        <action selector="strTestAction:" destination="-1" eventType="touchUpInside" id="PO5-5G-jhi"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="kXe-Ad-9Ls" firstAttribute="top" secondItem="hqn-O1-exW" secondAttribute="bottom" constant="26" id="4YK-gN-T9t"/>
+                <constraint firstItem="CK4-kE-Lyr" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="14" id="4aB-dt-YgH"/>
+                <constraint firstItem="CK4-kE-Lyr" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="Cfa-qF-YDo"/>
+                <constraint firstItem="wzO-U2-Cbk" firstAttribute="top" secondItem="FKp-xO-AWr" secondAttribute="bottom" constant="26" id="Dh4-bJ-wXO"/>
+                <constraint firstItem="hqn-O1-exW" firstAttribute="leading" secondItem="sRN-Uf-gCL" secondAttribute="leading" id="PO9-cG-Zum"/>
+                <constraint firstItem="sRN-Uf-gCL" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="123" id="R1r-gY-h0T"/>
+                <constraint firstItem="kXe-Ad-9Ls" firstAttribute="leading" secondItem="hqn-O1-exW" secondAttribute="leading" id="RQp-Rz-r7y"/>
+                <constraint firstItem="FKp-xO-AWr" firstAttribute="top" secondItem="sRN-Uf-gCL" secondAttribute="bottom" constant="26" id="XK8-n4-tUK"/>
+                <constraint firstItem="hqn-O1-exW" firstAttribute="top" secondItem="wzO-U2-Cbk" secondAttribute="bottom" constant="26" id="dOU-dj-qqE"/>
+                <constraint firstItem="wzO-U2-Cbk" firstAttribute="leading" secondItem="sRN-Uf-gCL" secondAttribute="leading" id="rNk-Ve-iEb"/>
+                <constraint firstItem="sRN-Uf-gCL" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="65" id="xOy-9Z-Q15"/>
+                <constraint firstItem="FKp-xO-AWr" firstAttribute="leading" secondItem="sRN-Uf-gCL" secondAttribute="leading" id="yPv-ji-HkS"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
