@@ -24,9 +24,10 @@ NSString * const ZZAppLanguageDidChangeNotification;
 |:--------------------:|:---------------------------:|:----------------------------:|
 | √ | √ | √ |
 
+
 ##效果图
 
 <p align="center" >
-  <img src="https://github.com/zengqingf/iOSAppLanguageSwitch/blob/master/screenshot/1.gif?raw=true">
+  <img src="https://github.com/zengqingf/iOSAppLanguageSwitch/blob/master/screenshot/1.gif?raw=true" width="312" height="576">
 </p>
 更多用法请看demo，觉得好用的话别忘star一下哦！
