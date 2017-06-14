@@ -18,10 +18,15 @@ iOS手动切换显示语言
 //当app语言改变之后发送通知
 NSString * const ZZAppLanguageDidChangeNotification;
 ```
-## Requirements
+## Support
 
 | StoryBoard | Xib  | NSLocalizedString  |
 |:--------------------:|:---------------------------:|:----------------------------:|
 | √ | √ | √ |
 
+##效果图
+
+<p align="center" >
+  <img src="https://github.com/zengqingf/iOSAppLanguageSwitch/blob/master/screenshot/1.gif?raw=true">
+</p>
 更多用法请看demo，觉得好用的话别忘star一下哦！
